@@ -25,7 +25,8 @@
 			text-decoration: none;
 		}
 
-		.nav_menu a:hover {
+		.nav_menu a:hover 
+        {
 			background-color: white;
 			color: green;
 		}
@@ -35,13 +36,21 @@
 		.columnB,
 		.columnC,
         .columnD,
-        .columnE
+        .columnE,
         .columnF {
 			float: left;
-			width: 40%;
-			padding: 25px;
+			width: 30%;
+			padding: 15px;
 			text-align: justify;
 		}
+        .columnG,
+        .columnH {
+            float: left;
+			width: 10%;
+			padding: 10px;
+			text-align: justify;
+
+        }
 
 		h2 {
 			color: black;
